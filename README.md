@@ -49,4 +49,4 @@ To start the server, run:
 npm start
 
 ```bash
-http://localhost:5000
+http://localhost:5000/
