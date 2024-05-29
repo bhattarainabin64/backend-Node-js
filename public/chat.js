@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (response.ok) {
       const data = await response.json();
       token = data.token;
-      localStorage.setItem("token", token); // Save token to localStorage
+      localStorage.setItem("token", token); 
       loginContainer.style.display = "none";
       chatContainer.style.display = "block";
       initializeSocket();
@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+
   // Define the joinGroup function to send a request to join the group
   async function joinGroup(currentGroupId) {
     if (currentGroupId) {
@@ -90,9 +91,9 @@ document.addEventListener("DOMContentLoaded", () => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${token}`, // Include the JWT token in the headers
+            Authorization: `Bearer ${token}`, 
           },
-          body: JSON.stringify({ groupId: currentGroupId }), // Send the group ID in the request body
+          body: JSON.stringify({ groupId: currentGroupId }), 
         });
 
         if (response.ok) {
