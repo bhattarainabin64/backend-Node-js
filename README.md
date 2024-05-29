@@ -33,7 +33,7 @@ Make sure you have the following installed:
     JWT_SECRET_KEY=Backend4#@#^&*
     JWT_EXPIRES_IN=1m
     ```
-To login in chat use following emaila and password if you wnat to make own then register through api:
+To log in to the chat, use the following email and password. If you want to create your own account, you can register through the API:
 
 Email: bhattarainabin809@gmail.com
 Password: Test1412#@$@
