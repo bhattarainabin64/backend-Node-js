@@ -1,7 +1,6 @@
 # Project Name
 
-Description of your project goes here.
-
+Node js Backend with chat application
 ## Prerequisites
 
 Make sure you have the following installed:
@@ -34,8 +33,13 @@ Make sure you have the following installed:
     JWT_SECRET_KEY=Backend4#@#^&*
     JWT_EXPIRES_IN=1m
     ```
+To login in chat use following emaila and password if you wnat to make own then register through api:
 
-    Replace the MongoDB URI and other values with your actual credentials.
+Email: bhattarainabin809@gmail.com
+Password: Test1412#@$@
+
+Email: bhattarainabin64@gmail.com
+Password: Test1412#@$@
 
 ## Running the Application
 
